@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    color: #fff;
+    background-color: #000;
+  }
+}
+  
+
+  .hero{
+  text-align: left;
+font-weight: 500;
+
+  
+}
+
+#nav-icons ul{
+  display: flex;
+word-spacing:normal ;
+
+  gap : 2px;
+  
+}
+#nav-icons ul li
+{
+
+   padding-left: 7px;
+  margin-top: 20px;
+}
+#nav-icons ul h1{
+  font-style:italic;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+#hero{
+  margin-top: 140px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#about{
+   margin-top: 15rem; 
+  align-items: center;
+  justify-content: center;
+}
+
+#about h1{
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+
+}
+
+#message{
+  padding: 40px;
+}
+.button{
+  border: #fff;
+  padding: 4px;
+  border: 3px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 9px;
+  width: 70px;
+  border-radius: 9px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contact h1{
+font-weight: bold;
+font-size: xx-large;
+}
